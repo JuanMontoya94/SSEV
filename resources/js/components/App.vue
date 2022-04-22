@@ -27,7 +27,7 @@ import Sidebar from './plantilla/Sidebar'
 import Content from './plantilla/Content'
 import Footer from './plantilla/Footer'
 export default {
-    componets:{Navbar,Sidebar,Content,Footer}
+    components:{Navbar,Sidebar,Content,Footer}
 }
 </script>
 

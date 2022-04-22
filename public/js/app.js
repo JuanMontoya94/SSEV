@@ -5298,7 +5298,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  componets: {
+  components: {
     Navbar: _plantilla_Navbar__WEBPACK_IMPORTED_MODULE_0__["default"],
     Sidebar: _plantilla_Sidebar__WEBPACK_IMPORTED_MODULE_1__["default"],
     Content: _plantilla_Content__WEBPACK_IMPORTED_MODULE_2__["default"],
