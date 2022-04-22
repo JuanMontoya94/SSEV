@@ -15,7 +15,7 @@ const mix = require('laravel-mix');
     'resources/vendor/css/all.min.css',
     'resources/vendor/css/adminlte.min.css'
 ], 'public/css/plantilla.css')
-.js('resources/js/app.js', 'public/js')
+.js('resources/js/app.js', 'public/js').vue()
 .scripts([
     'resources/vendor/js/adminlte.min.js',
     'resources/vendor/js/demo.js'
