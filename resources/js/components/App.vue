@@ -8,7 +8,10 @@
 
 
     <!-- Content Wrapper. Contains page content -->
-    <Content></Content>
+     <div class="content-wrapper">
+        <router-view></router-view>
+     </div>
+
     <!-- /.content-wrapper -->
     <Footer></Footer>
 

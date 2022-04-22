@@ -11,14 +11,6 @@ const mix = require('laravel-mix');
  |
  */
 
- mix.styles([
-    'resources/vendor/css/all.min.css',
-    'resources/vendor/css/adminlte.min.css'
-], 'public/css/plantilla.css')
-.js('resources/js/app.js', 'public/js').vue()
-.scripts([
-    'resources/vendor/js/adminlte.min.js',
-    'resources/vendor/js/demo.js'
-], 'public/js/plantilla.js')
-.copy('resources/vendor/fontawesome/webfonts', 'public/webfonts')
-.copy('resources/vendor/img', 'public/img');
+mix.js('resources/js/app.js', 'public/js').vue()
+    .sass('resources/sass/app.scss', 'public/css')
+    .sourceMaps();
