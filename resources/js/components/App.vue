@@ -1,9 +1,9 @@
 <template>
    <div>
         <!-- Navbar -->
-    <Navbar></Navbar>
+    <Navbar :ruta="ruta"></Navbar>
     <!-- /.navbar -->
-    <Sidebar></Sidebar>
+    <Sidebar :ruta="ruta"></Sidebar>
     <!-- Main Sidebar Container -->
 
 
@@ -27,6 +27,7 @@ import Sidebar from './plantilla/Sidebar'
 import Content from './plantilla/Content'
 import Footer from './plantilla/Footer'
 export default {
+    props: ['ruta'],
     components:{Navbar,Sidebar,Content,Footer}
 }
 </script>

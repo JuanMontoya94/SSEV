@@ -4,7 +4,7 @@
 <body class="hold-transition sidebar-mini">
 <div class="wrapper" id="app">
 
-    <App></App>
+    <App ruta="{{route('basepath')}}" ></App>
 
 </div>
 <!-- ./wrapper -->

@@ -31,13 +31,13 @@
         <li class="nav-item dropdown">
           <a class="nav-link" data-toggle="dropdown" href="#">
             <i class="far fa-comments"></i>
-            <span class="badge badge-danger navbar-badge">3</span>
+            <span class="badge badge-danger navbar-badge">10</span>
           </a>
           <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="#" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                <img :src="ruta + '/img/avatar.png'" alt="User Avatar" class="img-size-50 mr-3 img-circle">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     Brad Diesel
@@ -53,7 +53,7 @@
             <a href="#" class="dropdown-item">
               <!-- Message Start -->
               <div class="media">
-                <img src="#" alt="User Avatar" class="img-size-50 img-circle mr-3">
+                <img :src="ruta + '/img/avatar.png'" alt="User Avatar" class="img-size-50 img-circle mr-3">
                 <div class="media-body">
                   <h3 class="dropdown-item-title">
                     John Pierce
@@ -123,7 +123,7 @@
 
 <script>
 export default {
-
+    props:['ruta']
 }
 </script>
 
