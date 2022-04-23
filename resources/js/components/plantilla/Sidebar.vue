@@ -27,75 +27,75 @@
             <!-- Add icons to the links using the .nav-icon class
                  with font-awesome or any other icon font library -->
             <li class="nav-item has-treeview menu-open">
-              <a href="#" class="nav-link active">
+              <router-link class="nav-link" :to="'/'">
                 <i class="nav-icon fas fa-tachometer-alt"></i>
                 <p>
                   Dashboard
                 </p>
-              </a>
+              </router-link>
 
             </li>
 
             <li class="nav-header">OPERACIONES</li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <router-link class="nav-link" :to="'/pedido'">
                 <!-- <i class="nav-icon fas fa-cash-register"></i> -->
                 <i class="fa-solid fa-align-left"></i>
                 <p>
                   Pedidos
                   <span class="badge badge-info right">4</span>
                 </p>
-              </a>
+              </router-link>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <router-link class="nav-link" :to="'/cliente'">
                 <!-- <i class="nav-icon fas fa-user-friend"></i> -->
                 <i class="fa-regular fa-user"></i>
                 <p>
                   Clientes
                 </p>
-              </a>
+              </router-link>
             </li>
 
             <li class="nav-header">CONFIGURACION</li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <router-link class="nav-link" :to="'/Categoria'">
                 <i class="nav-icon fas fa-sitemap"></i>
                 <p>Categorias</p>
-              </a>
+              </router-link>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <router-link class="nav-link" :to="'/Producto'">
                 <i class="nav-icon fas fa-apple-alt"></i>
                 <p>Productos</p>
-              </a>
+              </router-link>
             </li>
 
-            <li class="nav-header">aDMINISTRACION</li>
+            <li class="nav-header">ADMINISTRACION</li>
                  <li class="nav-item">
-              <a href="#" class="nav-link">
+              <router-link class="nav-link" :to="'/Usuario'">
                 <i class="nav-icon fas fa-users"></i>
                 <p>Usuarios</p>
-              </a>
+              </router-link>
             </li>
              <li class="nav-item">
-              <a href="#" class="nav-link">
+              <router-link class="nav-link" :to="'/Rol'">
                 <i class="nav-icon fas fa-unlock-alt"></i>
                 <p>Roles</p>
-              </a>
+              </router-link>
             </li>
              <li class="nav-item">
-              <a href="#" class="nav-link">
+              <router-link class="nav-link" :to="'/Permiso'">
                 <i class="nav-icon fas fa-key"></i>
                 <p>Permisos</p>
-              </a>
+              </router-link>
             </li>
              <li class="nav-header">REPORTES</li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <router-link class="nav-link" :to="'/pedido'">
                 <i class="nav-icon fas fa-file-export"></i>
                 <p>Pedidos</p>
-              </a>
+              </router-link>
             </li>
 
           </ul>

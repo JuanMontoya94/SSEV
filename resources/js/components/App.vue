@@ -9,7 +9,9 @@
 
     <!-- Content Wrapper. Contains page content -->
      <div class="content-wrapper">
+          <transition name="slide-fade" mode="in-out">
         <router-view></router-view>
+          </transition>
      </div>
 
     <!-- /.content-wrapper -->
